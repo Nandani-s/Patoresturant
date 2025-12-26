@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Home</title>
 	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
 		integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -20,15 +20,14 @@
 	<header
 		class=" bg-[url('https://preview.colorlib.com/theme/pato/images/slide1-01.jpg')] bg-cover bg-center bg-no-repeat h-[100vh]">
 		<div class="flex  justify-between px-12 py-6 align-center mx-28 h-32 ">
+			<div class=" px-2 py-1 text-center text-white  rounded-xl">
+				<img src="https://preview.colorlib.com/theme/pato/images/icons/logo.png" alt="">
 
-			<div class="border-3 px-4 py-2 text-center text-white  rounded-xl">
-
-				<p class="font-bold text-2xl text-center">PATO</p>
-				<P class="text-center">RESTRURANT</P>
 			</div>
 			<div class="gap-12 text-white">
 				<a href="./home.html" class="gap-12 px-6 py-6">HOME</a>
 				<a href="./menu.html" class="gap-12 px-6 py-6">MENU</a>
+				<a href="./Reservation.html" class="gap-12 px-6 py-6">RESERVATION</a>
 				<a href="./gallery.html" class="gap-12 px-6 py-6">GALLERY</a>
 				<a href="./about.html" class="gap-12 px-6 py-6">ABOUT</a>
 				<a href="./blog.html" class="gap-12 px-6 py-6">BLOG</a>
@@ -177,7 +176,7 @@
 					<h1 class="text-center text-xl py-2">WINES DURING SPECIFIC NIGHTS</h1>
 					<p class="text-center text-gray-300 py-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 						Labore dolorum, qui sapiente aut molestiae doloribus numquam?</p>
-					<div class="flex gap-12 py -4 text-center">
+					<div class="flex gap-12 py-4 text-center justify-center w-full ">
 						<div>
 							<p class="text-red-600 text-6xl font-bold">25</p>
 							<p class="text-gray-400 text-center">DAYS</p>
@@ -210,13 +209,13 @@
 	<!-- fourth section -->
 	<section class="flex px-24 py-24 justify-evenly bg-gray-50">
 		<div class="">
-			<p class="font-[Courgette] text-red-600 text-4xl text-center">Rservation</p>
+			<p class="font-[Courgette] text-red-600 text-4xl text-center">Reservation</p>
 			<h1 class="text-5xl font-bold text-center">B O O K &nbsp; &nbsp;T A B L E</h1>
 			<div class="flex py-12">
 				<div>
 					<div class="py-2">
 						<label for="date">DATE</label><br>
-						<input type="=date" placeholder="22/12/2025"
+						<input type="date" placeholder="22/12/2025"
 							class="py-2 border border-gray-200 px-2 rounded-lg bg-white w-64">
 					</div>
 					<div class="py-2">
@@ -225,7 +224,7 @@
 							class="py-2 border border-gray-200 px-2 rounded-lg bg-white w-64">
 					</div>
 					<div class="py-2">
-						<label for="place">Place</label><br>
+						<label for="people">People</label><br>
 						<input type="=text" placeholder="22/12/2025"
 							class="py-2 border border-gray-200 px-2 rounded-lg bg-white w-64">
 					</div>
@@ -353,32 +352,44 @@
 		<div>
 			<h1 class="text-white py-6 text-lg">GALLERY</h1>
 			<div class="flex">
-			<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-01.jpg" class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25" alt="">
-			<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-02.jpg" class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25" alt="">
-			<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-03.jpg" class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
-			<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-04.jpg" class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
+				<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-01.jpg"
+					class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25" alt="">
+				<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-02.jpg"
+					class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25" alt="">
+				<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-03.jpg"
+					class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
+				<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-04.jpg"
+					class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
 			</div>
 			<div class="flex">
-			<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-05.jpg" class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
-			<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-06.jpg" class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 "alt="">
-			<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-07.jpg" class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
-			<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-08.jpg" class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
+				<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-05.jpg"
+					class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
+				<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-06.jpg"
+					class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
+				<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-07.jpg"
+					class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
+				<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-08.jpg"
+					class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
 			</div>
 			<div class="flex">
-			<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-09.jpg" class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
-			<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-10.jpg" class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
-			<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-11.jpg"  class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 "alt="">
-			<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-12.jpg" class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
+				<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-09.jpg"
+					class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
+				<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-10.jpg"
+					class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
+				<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-11.jpg"
+					class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
+				<img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-12.jpg"
+					class="h-22 w-22 mx-1 my-1 hover:bg-red-600 hover:opacity-25 " alt="">
 			</div>
 
 		</div>
 
 	</footer>
 	<!-- copy right -->
-    <div class="h-12 bg-black flex justify-between px-32 text-white">
+	<div class="h-12 bg-black flex justify-between px-32 text-white">
 		<div>
 			<i class="fa-brands fa-facebook-f" class="gap-12 px-6 py-6"></i>
-				<i class="fa-brands fa-twitter" class="gap-12 px-6 py-6"></i>
+			<i class="fa-brands fa-twitter" class="gap-12 px-6 py-6"></i>
 
 		</div>
 		<div>
